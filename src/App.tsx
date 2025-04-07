@@ -296,16 +296,16 @@ function App() {
       </div>
 
       {/* Certification Display */}
-      <div className="bg-white py-16">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-8">Votre Certification Professionnelle</h2>
-          <img
-            src="https://static.wixstatic.com/media/d88ab2_f9d3a8d014f04751b3de24f0a53b309d~mv2.png"
-            alt="Certification professionnelle"
-            className="max-w-2xl mx-auto rounded-xl shadow-lg"
-          />
-        </div>
-      </div>
+<div className="bg-white py-16">
+  <div className="container mx-auto px-4 text-center">
+    <h2 className="text-3xl font-bold mb-8">Votre Certification Professionnelle</h2>
+    <img
+      src="https://static.wixstatic.com/media/d88ab2_f9d3a8d014f04751b3de24f0a53b309d~mv2.png"
+      alt="Certification professionnelle"
+      className="mx-auto rounded-xl shadow-lg w-full max-w-md sm:max-w-2xl"
+    />
+  </div>
+</div>
 
       {/* Forfaits section */}
       <div className="bg-gradient-to-b from-white to-pink-50 py-16">
